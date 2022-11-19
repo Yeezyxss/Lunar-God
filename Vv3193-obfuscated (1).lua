@@ -2905,104 +2905,104 @@ local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
 
 local ADMINS = {
-    , -- DX9
-    , -- 
-    , -- 
-    , -- 
-    , -- 
-    , -- 
-    , -- 
-    , -- 
+    87521950, -- Lerkermer
+    1342879760, -- w_6u
+    200547759, -- Mas2n
+    12344533453, -- SusLeveI100
+    44694442, -- MinecraftFan
+    2327113988, -- HaremGodA1den
+    2214013158, -- MiIIionares
+    92157681, -- Nina
 }
 local MODS = {
-    2292461357, -- DX9
-    , 
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
+    430325969, -- KasysProperty
+    11212285, -- percs
+    2345019807,
+    67837292,
+    1981770367,
+    1581612339,
+    693789437,
+    1770295113,
 }
 local STARS = {
-    2292461357, -- 2292461357
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    , -- 
-    , -- 
-    , -- 
-    , ---
-    ,
-    ,
-    ,
-    , -- 
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    ,
-    , 
-    ,
-    ,
+    818022641,
+    1772849586,
+    1832539781,
+    69924376,
+    1136892222,
+    1104095245,
+    2037168080,
+    2422478955,
+    601366216,
+    446575730,
+    2032769740,
+    129820721,
+    1296596772,
+    312125703,
+    1506264653,
+    1367096047,
+    2412645792,
+    484757047,
+    2525829407,
+    2376237627,
+    2227525102,
+    730101728,
+    494982615,
+    1289058590,
+    2455659548,
+    654024258, -- ripretro
+    331601222, -- wozispapi
+    1823901606, -- bbtttrflyy
+    354810459, ---kaykeljam72
+    244944859,
+    379270370,
+    1523390112,
+    23788749, -- new
+    195695405,
+    1382324180,
+    2346060279,
+    1660080643,
+    25169814,
+    494429223,
+    51405555,
+    2418360105,
+    175190440,
+    2255706751,
+    449952176,
+    2357610986,
+    2224078675,
+    272772978,
+    1494501304,
+    1939542762,
+    2224078675,
+    924595371,
+    1554640923,
+    552499725,
+    675578248,
+    2441435641, 
+    370312423,
+    2315353873,
 }
 local BOOSTERS = {
-    2292461357, -- DX9
-    , -- 
-    , -- 
-    , -- 
-    ,
-    ,
-    ,
-    ,
+    748134395, -- fyn
+    1826873689, -- yo bugga
+    195627100, -- fyn
+    730101728, -- 
+    494982615,
+    2409253491,
+    640661916,
+    1490343797,
     
 }
 local NOEMOJI = {
-    2292461357, -- DX9
+    2351144328, -- kumi
 
 }
 local MONEYNAME = {
-    2292461357, -- DX9
+    1622658484, -- Name123245
 }
 local CUSTOMWINNER = {
-    2292461357, -- DX9
+    248981646, -- VoidlessAroura
 }
 
 local formatNumber = (function(n)
@@ -3323,7 +3323,7 @@ local function checkswag()
                         end
                     elseif plrID == 2476489068 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
-                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('')
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('cuf#5041')
                         end
                     elseif plrID == 555710383 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
@@ -3380,296 +3380,3 @@ local function checkswag()
 end
 
 local succ, errr = pcall(checkswag)
-
---// Premium User //--
-local user_premium__001 = game.Players.xx_aaronlolxd --// Replace "User101" with your username (NOT DISPLAY) //--
-
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
------------------------------------------------------------------------
-
---// Premium Commands //--
-local freeze = function()
-	game.Players.LocalPlayer.Character.LowerTorso.Anchored = true
-	game.Players.LocalPlayer.Character.UppperTorso.Anchored = true
-end
-
-local unfreeze = function()
-	game.Players.LocalPlayer.Character.LowerTorso.Anchored = false
-	game.Players.LocalPlayer.Character.UppperTorso.Anchored = flase
-end
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":kick .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			game.Players.LocalPlayer:Kick("Kicked by Premium user")
-		end
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":fling .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 999, 0)
-			power = 99999999 -- change this to make it more or less powerful
- 
-			game:GetService('RunService').Stepped:connect(function()
-			game.Players.LocalPlayer.Character.Head.CanCollide = false
-			game.Players.LocalPlayer.Character.UpperTorso.CanCollide = false
-			game.Players.LocalPlayer.Character.LowerTorso.CanCollide = false
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = false
-			end)
-			wait(.1)
-			local bambam = Instance.new("BodyThrust")
-			bambam.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
-			bambam.Force = Vector3.new(power,0,power)
-			bambam.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
-		end
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":benx .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			wait(0) local A_1 = "Yeah Yeah!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
-			game.Workspace:FindFirstChildWhichIsA('Camera').CameraSubject = user_premium__001.Character.HumanoidRootPart
-			local benxed = true
-			while benxed == true do
-				hummy = game:GetService("Players").LocalPlayer.Character.Humanoid
-				pcall(function()
-    					hummy.Parent.Pants:Destroy()
-				end)
-				pcall(function()
-    					hummy.Parent.Shirt:Destroy()
-				end)
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = user_premium__001.Character.HumanoidRootPart.CFrame + user_premium__001.Character.HumanoidRootPart.CFrame.lookVector * 0.5
-				game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 70
-				wait(0.1)
-				game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * -200
-			end
-		end
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":unbenx .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			benxPos = player.Character.HumanoidRootPart.CFrame
-			game.Players.LocalPlayer.Character.Humanoid:Destroy()
-			wait(7)
-			player.Character.HumanoidRootPart.CFrame = benxPos
-		end
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":freeze .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			freeze()
-		end
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":unfreeze .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			unfreeze()
-		end
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":thaw .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			unfreeze()
-		end
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":ban .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			game.Players.LocalPlayer:kick("PERMA BAN")
-		end
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":kill .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			game.Players.LocalPlayer.Character.Humanoid:Destroy()
-		end
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":premcmds") then
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":void .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -350, 0)
-		end
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":bring .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(user_premium__001.Character.UpperTorso.Position)
-		end
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":grave .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.UpperTorso.Position.X, game.Players.LocalPlayer.Character.UpperTorso.Position.Y -10, game.Players.LocalPlayer.Character.UpperTorso.Position.z)
-			game.Players.LocalPlayer.Character.LowerTorso.Anchored = true
-		end
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":ungrave .") then
-		if game.Players.LocalPlayer ~= user_premium__001 then
-			game.Players.LocalPlayer.Character.LowerTorso.Anchored = false
-			wait(0.1)
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.UpperTorso.Position.X, game.Players.LocalPlayer.Character.UpperTorso.Position.Y +10, game.Players.LocalPlayer.Character.UpperTorso.Position.z)
-		end
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":grave me") then
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.UpperTorso.Position.X, game.Players.LocalPlayer.Character.UpperTorso.Position.Y -10, game.Players.LocalPlayer.Character.UpperTorso.Position.z)
-			game.Players.LocalPlayer.Character.LowerTorso.Anchored = true
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":ungrave me") then
-			game.Players.LocalPlayer.Character.LowerTorso.Anchored = false
-			wait(0.1)
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.UpperTorso.Position.X, game.Players.LocalPlayer.Character.UpperTorso.Position.Y +10, game.Players.LocalPlayer.Character.UpperTorso.Position.z)
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":kick me") then
-		if game.Players.LocalPlayer == user_premium__001 then
-			game.Players.LocalPlayer:Kick("Kicked yourself")
-		end
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":freeze me") then
-		if game.Players.LocalPlayer == user_premium__001 then
-			freeze()
-		end
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":unfreeze me") then
-		if game.Players.LocalPlayer == user_premium__001 then
-			unfreeze()
-		end
-	end
-
-end)
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":thaw me") then
-		if game.Players.LocalPlayer == user_premium__001 then
-			unfreeze()
-		end
-	end
-
-end)
-
----------------------------------------------------------------------
-
-user_premium__001.Chatted:connect(function(cht)
-	if cht:match(":cmds") then
-		if game.Players.LocalPlayer == user_premium__001 then
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Cmds:";
-	Text = ":Freeze :grave :benx :bring :void :kill :kick :ban :fling";
-	Time = 50;
-	Icon = "rbxassetid://505845268";
-})
-		end
-	end
-
-end)
----------------------
-
-if game.Players.LocalPlayer == user_premium__001 then
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Premium Loaded";
-	Text = "";
-	Time = 10;
-	Icon = "rbxassetid://505845268";
-})
-else
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "No Premium!";
-	Text = "D:";
-	Time = 10;
-})
-end
